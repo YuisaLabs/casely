@@ -25,7 +25,7 @@ function convertKeys<T>(
     const result: Record<string, unknown> = {};
 
     for (const key in input) {
-      if (!Object.hasOwn(input, key)) continue;
+      if (!Object.prototype.hasOwnProperty.call(input, key)) continue;
 
       const newKey = skipKeys.includes(key) ? key : transformer(key);
       const value = input[key];
