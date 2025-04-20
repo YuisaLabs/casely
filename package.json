@@ -1,0 +1,19 @@
+{
+  "name": "@yuisalabs/casely",
+  "version": "1.0.0",
+  "description": "Object Converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuisaLabs/casely.git"
+  },
+  "author": "yuisa-scarlet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuisaLabs/casely/issues"
+  },
+  "homepage": "https://github.com/YuisaLabs/casely#readme"
+}
