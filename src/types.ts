@@ -5,4 +5,4 @@ interface ConvertOptions {
   preserveArrayKeys?: boolean;
 }
 
-export { ConvertOptions };
+export type { ConvertOptions };
