@@ -19,3 +19,50 @@ No dependencies, written in TypeScript, designed for performance and clarity.
 
 ```bash
 npm install @yuisa-scarlet/casely
+```
+
+## ⚙️ Usage
+
+```js
+import { toCamelCaseKeys, toSnakeCaseKeys } from "@yuisalabs/casely"
+
+const snakeCaseObject = {
+  user_id: 1,
+  user_name: "John Doe",
+  user_details: {
+    first_name: "John",
+    last_name: "Doe",   
+  }
+}
+
+const camelCaseObject = {
+  userId: 1,
+  userName: "John Doe",
+  userDetails: {
+    firstName: "John",
+    lastName: "Doe",   
+  }
+}
+
+console.log(toCamelCaseKeys(snakeCaseObject))
+// Result
+{
+  userId: 1,
+  userName: "John Doe",
+  userDetails: {
+    firstName: "John",
+    lastName: "Doe",   
+  }
+}
+
+console.log(toSnakeCaseKeys(camelCaseObject))
+// Result
+{
+  user_id: 1,
+  user_name: "John Doe",
+  user_details: {
+    first_name: "John",
+    last_name: "Doe",   
+  }
+}
+```

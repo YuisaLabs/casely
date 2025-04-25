@@ -1,6 +1,6 @@
 {
   "name": "@yuisa-scarlet/casely",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Object Converter",
   "main": "index.js",
   "type": "module",
