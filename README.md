@@ -18,7 +18,7 @@ No dependencies, written in TypeScript, designed for performance and clarity.
 ## 📦 Installation
 
 ```bash
-npm install @yuisa-scarlet/casely
+npm install @yuisalabs/casely
 ```
 
 ## ⚙️ Usage
